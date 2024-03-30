@@ -1,5 +1,5 @@
 import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
+import { makeStyles } from '@mui/styles';
 import {Grid,Typography,TextField,Button} from "@mui/material"
 
 import EmailIcon from '@mui/icons-material/Email';
