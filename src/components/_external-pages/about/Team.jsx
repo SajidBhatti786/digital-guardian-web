@@ -7,6 +7,7 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 
 import iqra from '../../../assets/images/iqra.png';
 import zulfi from '../../../assets/images/zulfi.png';
+import faisal from '../../../assets/images/faisal.jpeg';
 const useStyles = makeStyles((theme) => ({
   root: {
     // flexGrow: 1,
@@ -106,8 +107,8 @@ const teamMembers = [
       },
       {
         name: 'Faisal Bin Obaid',
-        profession: 'DevOPs Engineer',
-        image: 'https://avatars.githubusercontent.com/u/113120555?v=4',
+        profession: 'DevOps Engineer',
+        image: faisal,
         social: {
           github: 'https://github.com/SajidBhatti786',
           linkedin: 'https://linkedin.com',
@@ -183,7 +184,7 @@ const Team = () => {
           padding: '10px',
         }}
       >
-We are privileged to have Sir Riaz Soomro as our esteemed supervisor for our project. With his extensive experience and expertise in the field of computer science, Sir Riaz has been an invaluable mentor throughout our project journey.      </Typography>
+Our team is privileged to have Sir Riaz Soomro as our esteemed primary supervisor and Sir Faisal Bin Obaid as our co-supervisor for our Bachelor's degree in Computer Science (BSCS) final year project. With their extensive experience and expertise in the field of computer science, both Sir Riaz and Sir Faisal have been invaluable mentors throughout our project journey.</Typography>
       <Grid container className={classes.cardsRoot}>
         {supervisors.map((member, index) => (
           <Grid key={index} item sm={12}

@@ -3,6 +3,7 @@ import { styled } from '@mui/material/styles';
 import { Grid, Container } from '@mui/material';
 // components
 import Page from '../components/Page';
+import ContactPage from 'src/components/_external-pages/contact/ContactPage';
 // import { ContactHero, ContactForm, ContactMap } from '../components/_external-pages/contact';
 
 // ----------------------------------------------------------------------
@@ -20,6 +21,7 @@ export default function Contact() {
   return (
     <RootStyle title="Contact us ">
       {/* <ContactHero /> */}
+      <ContactPage />
 
       <Container sx={{ my: 10 }}>
         <Grid container spacing={10}>
