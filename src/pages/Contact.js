@@ -20,8 +20,10 @@ const RootStyle = styled(Page)(({ theme }) => ({
 export default function Contact() {
   return (
     <RootStyle title="Contact us ">
+      <h1>ContactPage testing after deployment</h1>
       {/* <ContactHero /> */}
       <ContactPage />
+      
 
       <Container sx={{ my: 10 }}>
         <Grid container spacing={10}>
